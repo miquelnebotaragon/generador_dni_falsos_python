@@ -1,4 +1,4 @@
-<h1 align="center"><b>Convertir vídeos de YouTube a mp3 amb Python</b></h1>
+<h1 align="center"><b>Generador de DNI falsos amb Python</b></h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">
@@ -11,7 +11,7 @@
 <div align="center"><img src="https://user-images.githubusercontent.com/57944755/209711233-15963b37-2a47-4d86-827d-fe5af86343b5.png"></div>
 
 # 👁️‍🗨️ Introducció
-Si es dona el cas que volem descarregar únicament l'àudio d'algun dels nostres vídeos favorits de YouTube, ho podem fer amb un recull senzill de línies de codi tal com veurem a l'exemple següent.
+Generador de números de DNI falsos amb Python (⚠️ la lletra generada és aleatòria, no té perquè coincidir amb l'algoritme lògic que existeix als documents oficials).
 
 # 💻 Escenari
 Kubuntu 22.04 LTS

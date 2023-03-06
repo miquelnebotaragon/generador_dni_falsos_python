@@ -38,7 +38,44 @@ user@kubunu-mnebot:~$ sudo pip install random
 
 # 👇 Descàrrega i execució
 Copiarem el codi següent 👇 a un arxiu amb extensió **.py** al nostre ordinador (per exemple **generador_numeros_dni.py**).
-<p></p>📝 Descàrrega de l'arxiu .py des d'<a href="https://github.com/miquelnebotaragon/youtube_mp3_python/blob/main/convertir_youtube_mp3.py" target="_blank">aquí</a>.
+<p></p>📝 Descàrrega de l'arxiu .py des d'<a href="https://github.com/miquelnebotaragon/generador_dni_falsos_python/blob/main/generador_numeros_dni.py" target="_blank">aquí</a>.
+
+# 🏆 Vull saber-ne més
+Desglossant el codi:
+## Part 1:
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+# Mòduls a importar:
+import random
+
+```
+Aquesta és la part inicial i més senzilla:
+<p>· Enumeram els mòduls a importar, en aquest cas només un, random.</p>
+
+
+```python
+
+# Variables:
+num_elements = int(input("Introdueix el nombre de números de DNI aleatoris a generar: "))
+llistat = [str(random.randint(10000000, 99999999)) + random.choice("ABCDEFGHIJKLMNOPQRSTUVWXYZ") for _ in range(num_elements)]
+
+```
+
+<p>· Mostram en pantalla un text on sol·licitam a l'usuari que indiqui la quantitat de números falsos que vol generar.</p>
+<p>· La segona variable s'emmagatzemarà de manera automàtica generant-se un llistat amb la quantitat indicada de números falsos + lletra tot tenint present la quantitat indicada anteriorment.</p>
+
+## Part 2:
+```python
+
+# Execució:
+for elements in llistat:
+    print(elements)
+
+```
+
+<p>· Finalment procedim a l'execució del programa imprimint en pantalla el llistat emmagatzemat a la segona variable.</p>
 
 # ➕ Informació
 1️⃣ L'arxiu **.py** ha estat comentat al detall (#) per tal de possibilitar l'anàlisi del seu funcionament.<p></p>
